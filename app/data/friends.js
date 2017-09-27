@@ -23,7 +23,7 @@ var friends = [
     "name": "Ron Swanson",
     "photo": "../../images/ron-swanson.jpg",
     "scores": [
-        5,
+        9,
         1,
         4,
         4,
@@ -40,12 +40,12 @@ var friends = [
     "photo": "../../images/morty.jpg",
     "scores": [
         5,
-        1,
+        8,
         4,
-        4,
-        5,
+        3,
+        7,
         1,
-        2,
+        6,
         5,
         4,
         1
@@ -71,14 +71,14 @@ var friends = [
     "name": "Rocket Man",
     "photo": "../../images/Kim-Jong-Un.jpg",
     "scores": [
-        5,
+        2,
         1,
         4,
         4,
-        5,
+        3,
         1,
         2,
-        5,
+        6,
         4,
         1
     ]
@@ -87,14 +87,14 @@ var friends = [
     "name": "The Orange King",
     "photo": "../../images/Trump.jpg",
     "scores": [
-        5,
         1,
-        4,
-        4,
-        5,
         1,
         2,
-        5,
+        3,
+        1,
+        1,
+        2,
+        2,
         4,
         1
     ]
@@ -103,14 +103,14 @@ var friends = [
     "name": "Ann Coulter",
     "photo": "../../images/ann-coulter.jpg",
     "scores": [
-        5,
+        3,
+        1,
         1,
         4,
-        4,
-        5,
+        1,
         1,
         2,
-        5,
+        1,
         4,
         1
     ]
@@ -135,30 +135,30 @@ var friends = [
     "name": "Angela Merkel",
     "photo": "../../images/angela-merkel.jpg",
     "scores": [
-        5,
-        1,
+        8,
+        6,
         4,
-        4,
         5,
-        1,
+        5,
+        7,
         2,
         5,
         4,
-        1
+        9
     ]
 },
 {
     "name": "Aung San Suu Kyi",
     "photo": "../../images/Aung-San-Suu-Kyi.jpg",
     "scores": [
-        5,
+        7,
         1,
         4,
         4,
-        5,
+        4,
         1,
         2,
-        5,
+        2,
         4,
         1
     ]
