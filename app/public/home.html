@@ -6,8 +6,9 @@
         <title>Friend Finder</title>
 
         <!-- CSS & JS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        
         <!-- Font Awesome Glyphicons -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -19,25 +20,38 @@
 <body>
 
     <div class="container">
-        <div class="jumbotron">
-            <h1 class=""><i class="fa fa-user-circle" aria-hidden="true"></i> Find a Friend</h1>
-                <hr />
-                <h2 class="">Answer A Few Not So Basic Questions...</h2>
-                <h2 class="">Let's See Who Could Be Your "Friends"...</h2>
-                <br>
+        <div class="row">
+            <div class="text-center">
+                <div class="col-lg-1"></div>
+                    <div class="col-lg-9">
+                        <div class="jumbotron">
+                            <h1 class=""><i class="fa fa-user-circle" aria-hidden="true"></i> Find A Friend</h1>
+                                <hr />
+                                <h2 class="">Answer A Few Not So Basic Questions...</h2>
+                                <h2 class="">Let's See Who Could Be Your "Friends"...</h2>
+                                <br>
 
-                <div class="">
-                        <a href="/survey"><button type="button" class="btn btn-lg btn-danger"><h3><span class="glyphicon glyphicon-list-alt"></span> Questionnaire?</h3></button></a>
-                </div>
-
+                            <div class="">
+                                <a href="/survey"><button type="button" class="btn btn-lg btn-danger"><h3><span class="glyphicon glyphicon-list-alt"></span> Questionnaire?</h3></button></a>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
         </div>
-
-    <footer class="footer">
-    <div class="container">
-            <p><a href="/api/friends"> API Friends List</a> | <a href="http://git@github.com:ewill20/Friend-Finder.git"> GitHub Repository </a></p>
-
     </div>
-    </footer>
+    
+        <footer class="footer">
+            <!-- <div class="row"> -->
+                <div class="col-lg-1"></div>
+                <div class="col-lg-9">
+                    <div class="text-center">
+                        <p><a href="/api/friends"> API Friends List</a> | <a href="http://git@github.com:ewill20/Friend-Finder.git"> GitHub Repository </a></p>
+                    </div>
+                </div>
+           <!--  </div> -->
+        </footer>
+
 
 </body>
 </html>
